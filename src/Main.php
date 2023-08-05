@@ -38,7 +38,7 @@ class Main extends PluginBase{
 	}
 
 	public static function registerItems() : void{
-		$item = ExtraVanillaItems::Goat_Horn();
+		$item = ExtraVanillaItems::GOAT_HORN();
 		self::registerSimpleItem(ItemTypeNames::GOAT_HORN, $item, ["goat_horn"]);
 	}
 
