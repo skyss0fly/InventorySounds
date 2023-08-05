@@ -38,8 +38,8 @@ class Main extends PluginBase{
 	}
 
 	public static function registerItems() : void{
-		$item = ExtraVanillaItems::IRON_HORSE_ARMOR();
-		self::registerSimpleItem(ItemTypeNames::IRON_HORSE_ARMOR, $item, ["iron_horse_armor"]);
+		$item = ExtraVanillaItems::Goat_Horn();
+		self::registerSimpleItem(ItemTypeNames::GOAT_HORN, $item, ["goat_horn"]);
 	}
 
 	/**
