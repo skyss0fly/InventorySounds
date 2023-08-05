@@ -44,6 +44,6 @@ final class ExtraVanillaItems{
 	protected static function setup() : void{
 		//If you want, store this ID somewhere for later, but you can always get it by doing ExtraVanillaItems::IRON_HORSE_ARMOR()->getTypeId()
 		$goatHornTypeId = ItemTypeIds::newId();
-		self::register("Goat Horn", new Item(new ItemIdentifier($goatHornTypeId),"Goat Horn"));
+		self::register("Goat_Horn", new Item(new ItemIdentifier($goatHornTypeId),"Goat Horn"));
 	}
 }
